@@ -1,0 +1,11 @@
+# SSH Configuration Template
+# Copy this file to config.py and update with your actual values
+
+# Path to your SSH private key file (usually a .pem file)
+SSH_KEY_PATH = '/path/to/your/ssh/key.pem'
+
+# SSH connection string: username@server_ip
+SSH_HOST = 'username@your.server.ip'
+
+# Remote directory to monitor for file creation
+REMOTE_DIR = '/home/username'
